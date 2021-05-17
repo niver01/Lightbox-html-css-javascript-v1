@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lighbox - Responsive</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <!--===========================================-->
+        <!-- Gallery -->
+        <!--===========================================-->
+        <div class="gallery" id="gallery">
+            <!--===========================================-->
+            <!-- gallery item -->
+            <!--===========================================-->
+            <div class="gallery_item">
+                <figure class="gallery_figure">
+                    <div class="gallery_caption">
+                        <img src="./img/image1.jpg" alt="">
+                        <a href="./img/image1.jpg" class="fa fa-download gallery_caption_download" download="nombre imagen"></a>
+                        <span class="fa fa-eye"></span>
+                    </div>
+                    <figcaption>
+                        <p class="gallery_descripcion">
+                            Lorem, ipsum dolor. 1
+                        </p>
+                        <p class="gallery_date">
+                            21 de mayo de 2020
+                        </p>
+                    <figcaption>
+                </figure>
+            </div>
+            <!--===========================================-->
+            <!-- gallery item -->
+            <!--===========================================-->
+            <div class="gallery_item">
+                <figure class="gallery_figure">
+                    <div class="gallery_caption">
+                        <img src="./img/image2.jpg" alt="">
+                        <a href="./img/image2.jpg" class="fa fa-download gallery_caption_download" download="nombre imagen"></a>
+                        <span class="fa fa-eye"></span>
+                    </div>
+                    <figcaption>
+                        <p class="gallery_descripcion">
+                            Lorem, ipsum dolor. 2
+                        </p>
+                        <p class="gallery_date">
+                            21 de mayo de 2020
+                        </p>
+                    <figcaption>
+                </figure>
+            </div>
+
+            <!--===========================================-->
+            <!-- gallery item -->
+            <!--===========================================-->
+            <div class="gallery_item">
+                <figure class="gallery_figure">
+                    <div class="gallery_caption">
+                        <img src="./img/image3.jpg" alt="">
+                        <a href="./img/image3.jpg" class="fa fa-download gallery_caption_download" download="nombre imagen"></a>
+                        <span class="fa fa-eye"></span>
+                    </div>
+                    <figcaption>
+                        <p class="gallery_descripcion">
+                            Lorem, ipsum dolor. 3
+                        </p>
+                        <p class="gallery_date">
+                            21 de mayo de 2020
+                        </p>
+                    <figcaption>
+                </figure>
+            </div>
+
+            <!--===========================================-->
+            <!-- gallery item -->
+            <!--===========================================-->
+            <div class="gallery_item">
+                <figure class="gallery_figure">
+                    <div class="gallery_caption">
+                        <img src="./img/image4.jpg" alt="">
+                        <a href="./img/image4.jpg" class="fa fa-download gallery_caption_download" download="nombre imagen"></a>
+                        <span class="fa fa-eye"></span>
+                    </div>
+                    <figcaption>
+                        <p class="gallery_descripcion">
+                            Lorem, ipsum dolor. 4
+                        </p>
+                        <p class="gallery_date">
+                            21 de mayo de 2020
+                        </p>
+                    <figcaption>
+                </figure>
+            </div>
+
+            <!--===========================================-->
+            <!-- gallery item -->
+            <!--===========================================-->
+            <div class="gallery_item">
+                <figure class="gallery_figure">
+                    <div class="gallery_caption">
+                        <img src="./img/image1.jpg" alt="">
+                        <a href="./img/image1.jpg" class="fa fa-download gallery_caption_download" download="nombre imagen"></a>
+                        <span class="fa fa-eye"></span>
+                    </div>
+                    <figcaption>
+                        <p class="gallery_descripcion">
+                            Lorem, ipsum dolor. 5
+                        </p>
+                        <p class="gallery_date">
+                            21 de mayo de 2020
+                        </p>
+                    <figcaption>
+                </figure>
+            </div>
+
+            <!--===========================================-->
+            <!-- gallery item -->
+            <!--===========================================-->
+            <div class="gallery_item">
+                <figure class="gallery_figure">
+                    <div class="gallery_caption">
+                        <img src="./img/image2.jpg" alt="">
+                        <a href="./img/image2.jpg" class="fa fa-download gallery_caption_download" download="nombre imagen"></a>
+                        <span class="fa fa-eye"></span>
+                    </div>
+                    <figcaption>
+                        <p class="gallery_descripcion">
+                            Lorem, ipsum dolor. 6
+                        </p>
+                        <p class="gallery_date">
+                            21 de mayo de 2020
+                        </p>
+                    <figcaption>
+                </figure>
+            </div>
+
+        </div>
+        <!--===========================================-->
+        <!-- gallery end -->
+        <!--===========================================-->
+
+        <!--===========================================-->
+        <!-- Lightbox -->
+        <!--===========================================-->
+        <div class="lightbox" id="lightbox">
+            <section>
+                <!--===========================================-->
+                <!-- Lightbox toolbar -->
+                <!--===========================================-->
+                <div class="lightbox_toolbar flex">
+                    <div class="lightbox_toolbar_counter">
+                        <span id="lightbox_toolbar_current">2</span>
+                        /
+                        <span id="lightbox_toolbar_all">8</span>
+                    </div>
+
+                    <div>
+                        <li class="lightbox_fullscreen" id="lightbox_fullscreen">
+                            <img src="./img/imgicon/icon_full_screen.png" alt="" srcset="">
+                        </li>
+                        <a href="" class="lightbox_download" id="lightbox_download">
+                            <img src="./img/imgicon/icon_download.png" alt="" srcset="">
+                        </a>
+                        <li class="lightbox_close" id="lightbox_close">
+                            <img src="./img/imgicon/icon_delete.png" alt="" srcset="">
+                        </li>
+                    </div>
+                </div>
+                <!--===========================================-->
+                <!-- Lightbox toolbar end -->
+                <!--===========================================-->
+
+                <!--===========================================-->
+                <!-- Lightbox slider -->
+                <!--===========================================-->
+                <div class="lightbox_slider" id="lightbox_slider">
+                    <ul class="lightbox_slider_nav" id="lightbox_slider_nav">
+                        <!-- Dynamic html -->
+                        <!-- <li class="lightbox_slider_item">
+                            <figure class="lightbox_slider_figure">
+                                <img src="./img/image1.jpg" alt="">
+                                <figcaption>
+                                    <p class="lightbox_slider_descripcion">Lorem ipsum dolor sit amet consectetur.</p>
+                                </figcaption>
+                            </figure>
+                        </li> -->
+                    </ul>
+                </div>
+                <!--===========================================-->
+                <!-- Lightbox slider end -->
+                <!--===========================================-->
+
+                <!--===========================================-->
+                <!-- Lightbox button -->
+                <!--===========================================-->
+                <div class="lightbox_botton" id="lightbox_botton">
+                    <div class="lightbox_botton-left" id="lightbox_botton-left">
+                        <img src="./img//imgicon/icon_prev.png" alt="" srcset="">
+                    </div>
+                    <div class="lightbox_botton-right" id="lightbox_botton-right">
+                        <img src="./img//imgicon/icon_next.png" alt="" srcset="">
+                    </div>
+                </div>
+                <!--===========================================-->
+                <!-- Lightbox button end -->
+                <!--===========================================-->
+            </section>
+
+            <!--===========================================-->
+            <!-- Lightbox image -->
+            <!--===========================================-->
+            <section class="lightbox-image" id="lightbox-image">
+                <div class="lightbox-image_nav" id="lightbox-image_nav">
+                    <!-- Dynamic html -->
+                    <!-- <figure class="lightbox-image_item">
+                        <img src="./img/image1.jpg" alt="" srcset="">
+                    </figure> -->
+                </div>
+
+                <div class="lightbox-image_toggle" id="lightbox-image_toggle">
+                    <img src="./img/imgicon/icon_grid_view.png" alt="">
+                </div>
+            </section>
+            <!--===========================================-->
+            <!-- Lightbox image -->
+            <!--===========================================-->
+        </div>
+        <!--===========================================-->
+        <!-- Lightbox end-->
+        <!--===========================================-->
+    </div>
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/lightbox-con-jQuery.js"></script>
+
+    <!-- <script src="./js/lightbox-con-javaScrip.js"></script> -->
+</body>
+</html>
